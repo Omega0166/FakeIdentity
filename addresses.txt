@@ -1,0 +1,84 @@
+--- Spain ---
+Calle Mayor 10, 28013 Madrid, Spain
+Avenida de América 45, 28002 Madrid, Spain
+Plaza del Sol 12, 46001 Valencia, Spain
+
+--- United States ---
+1600 Pennsylvania Ave NW, Washington, DC 20500, United States
+350 5th Ave, New York, NY 10118, United States
+1 Infinite Loop, Cupertino, CA 95014, United States
+
+--- Canada ---
+123 Queen St, Toronto, ON M5H 2N2, Canada
+456 King St W, Toronto, ON M5V 1L7, Canada
+789 Bloor St W, Toronto, ON M6G 1L9, Canada
+
+--- Germany ---
+Unter den Linden 77, 10117 Berlin, Germany
+Kurfürstendamm 21, 10719 Berlin, Germany
+Alexanderplatz 5, 10178 Berlin, Germany
+
+--- United Kingdom ---
+221B Baker Street, London NW1 6XE, United Kingdom
+10 Downing Street, London SW1A 2AA, United Kingdom
+Buckingham Palace, London SW1A 1AA, United Kingdom
+
+--- Netherlands ---
+Dam Square 1, 1012 JS Amsterdam, Netherlands
+Museumplein 10, 1071 DJ Amsterdam, Netherlands
+Keizersgracht 123, 1015 CJ Amsterdam, Netherlands
+
+--- Czech Republic ---
+Old Town Square 1, 110 00 Prague 1, Czech Republic
+Wenceslas Square 12, 110 00 Prague 1, Czech Republic
+Charles Bridge Street, 110 00 Prague, Czech Republic
+
+--- Ukraine ---
+Khreshchatyk St 22, Kyiv, 01001, Ukraine
+Maidan Nezalezhnosti, Kyiv, 01001, Ukraine
+Andriyivskyy Descent 10, Kyiv, 01001, Ukraine
+
+--- Israel ---
+Rothschild Blvd 10, Tel Aviv-Yafo, 6688101, Israel
+King George St 15, Tel Aviv-Yafo, 6520112, Israel
+Jaffa St 20, Jerusalem, 9100001, Israel
+
+--- India ---
+MG Road 5, Bangalore, Karnataka 560001, India
+Connaught Place, New Delhi 110001, India
+Brigade Road 50, Bangalore, Karnataka 560025, India
+
+--- Croatia ---
+Stradun 5, 20000 Dubrovnik, Croatia
+Ilica 15, 10000 Zagreb, Croatia
+Riva 10, 21000 Split, Croatia
+
+--- Portugal ---
+Avenida da Liberdade 100, 1250-140 Lisbon, Portugal
+Rua Augusta 50, 1100-053 Lisbon, Portugal
+Praça do Comércio 1, 1100-148 Lisbon, Portugal
+
+--- Bosnia And Herzegovina ---
+Ferhadija 10, 71000 Sarajevo, Bosnia And Herzegovina
+Bascarsija 15, 71000 Sarajevo, Bosnia And Herzegovina
+Zmaja od Bosne 20, 71000 Sarajevo, Bosnia And Herzegovina
+
+--- New Zealand ---
+Queen St 100, Auckland 1010, New Zealand
+Victoria St 50, Auckland 1010, New Zealand
+Wellington Rd 25, Wellington 6011, New Zealand
+
+--- Mexico ---
+Avenida Reforma 500, Mexico City 06600, Mexico
+Calle Madero 200, Mexico City 06000, Mexico
+Paseo de la Reforma 300, Mexico City 06500, Mexico
+
+--- Nigeria ---
+Victoria Island 25, Lagos, Nigeria
+Lekki Phase 1, Lagos, Nigeria
+Ikoyi 40, Lagos, Nigeria
+
+--- Brazil ---
+Avenida Paulista 1578, São Paulo, SP 01310-200, Brazil
+Rua Oscar Freire 200, São Paulo, SP 01426-001, Brazil
+Rua das Flores 50, Rio de Janeiro, RJ 20000-000, Brazil
