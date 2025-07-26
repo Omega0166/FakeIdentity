@@ -27,28 +27,12 @@ Configuration File: A properly formatted addresses.txt file for address generati
 Installation
 
 Clone or Download the Script:
-git clone <repository-url>  # Replace with actual repository URL
-cd fake-identity-generator
+git clone https://github.com/Omega0166/FakeIdentity.git
+cd FakeIdentity
 
 
 Make the Script Executable:
-chmod +x fake_identity.sh
-
-
-Prepare the addresses.txt File:
-
-Create a file named addresses.txt in the same directory as the script.
-Format it with country sections and addresses, e.g.:--- Mexico ---
-Calle Falsa 123, Ciudad de México
-Avenida Siempre Viva 456, Guadalajara
---- USA ---
-123 Main St, New York
-456 Oak Ave, Los Angeles
-
-
-Each country section starts with --- <CountryName> ---, followed by one address per line.
-Ensure country names match those returned by receive-smss.com (e.g., "Mexico", "USA").
-
+chmod +x FakeIdentity.sh
 
 Run the Script:
 sudo ./fake_identity.sh
