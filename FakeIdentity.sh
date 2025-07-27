@@ -482,8 +482,11 @@ select1(){
     list_identities
     read -p "ID: " id
     resultado=$(grep "^$id," "$DB")
-    if [ -z "$resultado" ]; then
+    if [ "$id" == "q" ];then
+        init
+    elif [ -z "$resultado" ]; then
       echo "No se encontró ese ID."
+      init
     fi
     current_info
     echo ""
