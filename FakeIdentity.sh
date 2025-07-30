@@ -16,13 +16,6 @@ MAGENTA='\033[35m'
 CYAN='\033[36m'
 RESET='\033[0m'
 
-# Clear screen
-clear
-
-# Credits
-echo "Signature: RussianBoy"
-echo "This program uses the API of mail.tm to get the email of the user https://api.mail.tm"
-
 # Banner (unchanged)
 linuxBanner() {
     echo -e "$RED       ┌$RED- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ┐ $RESET"
@@ -97,7 +90,7 @@ check_and_install_dependencies() {
         case "$package_manager" in
             "apt")
                 echo -e "${YELLOW}Installing dependencies with apt...${RESET}"
-                if apt update -y && apt install -y "${missing_deps[@]}"; then
+                if sudo apt update -y && sudo apt install -y "${missing_deps[@]}"; then
                     echo -e "${GREEN}Successfully installed: ${missing_deps[*]}${RESET}"
                 else
                     echo -e "${RED}Failed to install dependencies with apt. Please install ${missing_deps[*]} manually.${RESET}"
@@ -551,4 +544,12 @@ case $banner in
     *)
             echo "Banner dont available in actual SO"
 esac
+
+# Clear screen
+clear
+
+# Credits
+echo "Signature: RussianBoy"
+echo "This program uses the API of mail.tm to get the email of the user https://api.mail.tm"
+
 init
