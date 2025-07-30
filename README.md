@@ -27,7 +27,7 @@ Configuration File: A properly formatted addresses.txt file for address generati
 Installation
 
 Clone or Download the Script:
-git clone https://github.com/Omega0166/FakeIdentity.git
+git clone https://github.com/Omega0166/FakeIdentityGenerator.git
 cd FakeIdentity
 
 
