@@ -24,42 +24,45 @@ echo "Signature: RussianBoy"
 echo "This program uses the API of mail.tm to get the email of the user https://api.mail.tm"
 
 # Banner (unchanged)
-echo -e "$RED       ┌$RED- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ┐ $RESET"
-echo -e "$RED       |$RED       ⢀⣤⡄⠀⠀⠀⠀⠀⠀ ⠀⢤⣤⡀                                                               ⠀⠀ ⠀|"
-echo -e "   $RED    |    ⠀⠀⣰⣿⣿⠀⠀⠀⠀⠀⠀    ⢻⣿⣆⠀⠀                                                                |"
-echo -e "   $RED    |    ⠀⣰⣿⣿⠃⠀⠀⠀⠀⠀     ⠈⣿⣿⣇⠀                                                                |"
-echo -e "   $RED    |    ⢀⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀    ⢼⣿⣿⣿⡄                                                                |"
-echo -e "   $RED    |    ⢸⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀  ⠀⣠⣿⣿⣿⣿⡇                                                                |"
-echo -e "   $RED    |    ⠘⣿⣿⣿⣿⣿⣦      ⣼⣿⣿⣿⣿⣿⠇                                                                |"
-echo -e "   $RED    |    ⠀⢿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⡟⠀                                                                 |"
-echo -e "   $RED    |    ⠀⠀⠙⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠋⠀⠀                                                                 |"
-echo -e "$RED       |$MAGENTA▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄   ▄ ▄▄▄▄▄▄▄ $ORANGE▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄  $RED|"
-echo -e "$RED       |$MAGENTA█       █      █   █ █ █       $ORANGE█   █      ██       █  █  █ █       █   █       █  █ █  █$RED|"
-echo -e "$RED       |$MAGENTA█    ▄▄▄█  ▄   █   █▄█ █    ▄▄▄$ORANGE█   █  ▄    █    ▄▄▄█   █▄█ █▄     ▄█   █▄     ▄█  █▄█  █$RED|"
-echo -e "$RED       |$MAGENTA█   █▄▄▄█ █▄█  █      ▄█   █▄▄▄$ORANGE█   █ █ █   █   █▄▄▄█       █ █   █ █   █ █   █ █       █$RED|"
-echo -e "$RED       |$MAGENTA█    ▄▄▄█      █     █▄█    ▄▄▄$ORANGE█   █ █▄█   █    ▄▄▄█  ▄    █ █   █ █   █ █   █ █▄     ▄█$RED|"
-echo -e "$RED       |$MAGENTA█   █   █  ▄   █    ▄  █   █▄▄▄$ORANGE█   █       █   █▄▄▄█ █ █   █ █   █ █   █ █   █   █   █  $RED|"
-echo -e "$RED       |$MAGENTA█▄▄▄█   █▄█ █▄▄█▄▄▄█ █▄█▄▄▄▄▄▄▄$ORANGE█▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄█  █▄▄█ █▄▄▄█ █▄▄▄█ █▄▄▄█   █▄▄▄█  $RED|"
-echo -e "$RED       └$RED- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ┘ $RESET"
-echo ""
-echo ""
-echo ""
-echo -e "   WELCOME, YOU CAN WRITE '${YELLOW}h${RESET}' TO RECEIVE A LIST OF COMMANDS...$RESET"
-echo ""
-echo ""
-echo ""
-
+linuxBanner() {
+    echo -e "$RED       ┌$RED- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ┐ $RESET"
+    echo -e "$RED       |$RED       ⢀⣤⡄⠀⠀⠀⠀⠀⠀ ⠀⢤⣤⡀                                                               ⠀⠀ ⠀|"
+    echo -e "   $RED    |    ⠀⠀⣰⣿⣿⠀⠀⠀⠀⠀⠀    ⢻⣿⣆⠀⠀                                                                |"
+    echo -e "   $RED    |    ⠀⣰⣿⣿⠃⠀⠀⠀⠀⠀     ⠈⣿⣿⣇⠀                                                                |"
+    echo -e "   $RED    |    ⢀⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀    ⢼⣿⣿⣿⡄                                                                |"
+    echo -e "   $RED    |    ⢸⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀  ⠀⣠⣿⣿⣿⣿⡇                                                                |"
+    echo -e "   $RED    |    ⠘⣿⣿⣿⣿⣿⣦      ⣼⣿⣿⣿⣿⣿⠇                                                                |"
+    echo -e "   $RED    |    ⠀⢿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⡟⠀                                                                 |"
+    echo -e "   $RED    |    ⠀⠀⠙⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠋⠀⠀                                                                 |"
+    echo -e "$RED       |$MAGENTA▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄   ▄ ▄▄▄▄▄▄▄ $ORANGE▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄  $RED|"
+    echo -e "$RED       |$MAGENTA█       █      █   █ █ █       $ORANGE█   █      ██       █  █  █ █       █   █       █  █ █  █$RED|"
+    echo -e "$RED       |$MAGENTA█    ▄▄▄█  ▄   █   █▄█ █    ▄▄▄$ORANGE█   █  ▄    █    ▄▄▄█   █▄█ █▄     ▄█   █▄     ▄█  █▄█  █$RED|"
+    echo -e "$RED       |$MAGENTA█   █▄▄▄█ █▄█  █      ▄█   █▄▄▄$ORANGE█   █ █ █   █   █▄▄▄█       █ █   █ █   █ █   █ █       █$RED|"
+    echo -e "$RED       |$MAGENTA█    ▄▄▄█      █     █▄█    ▄▄▄$ORANGE█   █ █▄█   █    ▄▄▄█  ▄    █ █   █ █   █ █   █ █▄     ▄█$RED|"
+    echo -e "$RED       |$MAGENTA█   █   █  ▄   █    ▄  █   █▄▄▄$ORANGE█   █       █   █▄▄▄█ █ █   █ █   █ █   █ █   █   █   █  $RED|"
+    echo -e "$RED       |$MAGENTA█▄▄▄█   █▄█ █▄▄█▄▄▄█ █▄█▄▄▄▄▄▄▄$ORANGE█▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄█  █▄▄█ █▄▄▄█ █▄▄▄█ █▄▄▄█   █▄▄▄█  $RED|"
+    echo -e "$RED       └$RED- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ┘ $RESET"
+    echo ""
+    echo ""
+    echo ""
+    echo -e "   WELCOME, YOU CAN WRITE '${YELLOW}h${RESET}' TO RECEIVE A LIST OF COMMANDS...$RESET"
+    echo ""
+    echo ""
+    echo ""
+}
 # Check and install dependencies
 check_and_install_dependencies() {
     local deps=("curl" "jq")
     local missing_deps=()
     local package_manager=""
+    # shellcheck disable=SC2155
     local os_type="$(uname -s)"
 
     # Detect package manager and OS
     if [ "$os_type" = "Linux" ]; then
         if command -v apt >/dev/null 2>&1; then
             package_manager="apt"
+            banner="Linux"
         elif command -v pkg >/dev/null 2>&1; then
             package_manager="pkg" # Termux
         else
@@ -538,4 +541,14 @@ init() {
 }
 
 trap cleanup SIGINT SIGTERM
+
+
+check_and_install_dependencies
+case $banner in
+    Linux)
+            linuxBanner
+            ;;
+    *)
+            echo "Banner dont available in actual SO"
+esac
 init
